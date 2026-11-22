@@ -31,4 +31,4 @@ struct BurnInDriftTests {
         let o = BurnInDrift.offset(at: Date(timeIntervalSinceReferenceDate: -90), amplitude: 6)
         #expect(abs(o.width) <= 6 && abs(o.height) <= 6)
     }
-}
+} 
