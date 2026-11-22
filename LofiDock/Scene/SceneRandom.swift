@@ -20,4 +20,4 @@ enum SceneRandom {
 
 @inline(__always) func fract(_ x: Double) -> Double {
     x - x.rounded(.down)
-}
+} 
