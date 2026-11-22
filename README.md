@@ -134,4 +134,4 @@ the script afterwards. Build outputs from `scripts/deploy.sh` and
   macOS, runs the Swift Testing suite, renders every face (plus night, timer,
   muted and controls variants) to PNG, writes rain/vinyl/chime WAVs, times a
   scene frame, and regenerates the app icon from the scene code. Output goes
-  to `build/mac-check` by default.
+  to `build/mac-check` by default. 
