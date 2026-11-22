@@ -42,4 +42,4 @@ swiftc $COMMON -I "$OUT" -L "$OUT" -lLofiDock -F "$FW" \
 
 echo "==> Rendering previews"
 swiftc $COMMON -O -module-name MacPreview "${SOURCES[@]}" "$ROOT/tools/MacPreview/main.swift" -o "$OUT/mac-preview"
-"$OUT/mac-preview" "$OUT" "$ROOT/LofiDock/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png"
+"$OUT/mac-preview" "$OUT" "$ROOT/LofiDock/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png" 
