@@ -87,4 +87,4 @@ final class ChecklistStore {
         guard let data = try? JSONEncoder().encode(checklist) else { return }
         defaults.set(data, forKey: Pref.checklist)
     }
-}
+} 
