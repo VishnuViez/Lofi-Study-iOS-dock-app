@@ -15,4 +15,4 @@ enum BurnInDrift {
             height: amplitude * 0.6 * CGFloat(sin(angle * 2))
         )
     }
-}
+} 
