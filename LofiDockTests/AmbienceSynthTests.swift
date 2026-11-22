@@ -86,4 +86,4 @@ struct AmbienceSynthTests {
         let correlation = dot / (rms(l) * rms(r) * Float(l.count))
         #expect(abs(correlation) < 0.3)
     }
-}
+} 
