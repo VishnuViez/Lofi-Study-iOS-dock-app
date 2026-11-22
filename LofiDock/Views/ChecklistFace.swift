@@ -203,4 +203,4 @@ struct ChecklistRow: View {
         .accessibilityValue(item.isDone ? "Done" : "Not done")
         .accessibilityHint("Double-tap to tick off. Touch and hold to delete.")
     }
-}
+} 
