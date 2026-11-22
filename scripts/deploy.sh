@@ -80,4 +80,4 @@ APP=$DERIVED/Build/Products/Release-iphoneos/LofiDock.app
 echo "==> Installing"
 xcrun devicectl device install app --device "$DEVICE_ID" "$APP"
 echo "==> Launching"
-xcrun devicectl device process launch --device "$DEVICE_ID" --terminate-existing "$BUNDLE_ID"
+xcrun devicectl device process launch --device "$DEVICE_ID" --terminate-existing "$BUNDLE_ID" 
