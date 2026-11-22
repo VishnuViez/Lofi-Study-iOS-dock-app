@@ -98,4 +98,4 @@ final class TimerController {
             if granted { center.add(request) }
         }
     }
-}
+} 
