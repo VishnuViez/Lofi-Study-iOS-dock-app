@@ -49,4 +49,4 @@ final class ScreenAwakeController {
             ScreenAwake.shouldStayOn(onlyWhileCharging: onlyWhileCharging, isCharging: isCharging)
     }
 }
-#endif
+#endif 
