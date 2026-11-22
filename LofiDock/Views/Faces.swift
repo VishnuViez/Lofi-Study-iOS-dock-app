@@ -273,4 +273,4 @@ enum AnalogDial {
         glare.addArc(center: c, radius: face * 0.86, startAngle: .degrees(200), endAngle: .degrees(265), clockwise: false)
         gc.stroke(glare, with: .color(.white.opacity(0.18)), style: StrokeStyle(lineWidth: r * 0.03, lineCap: .round))
     }
-}
+} 
