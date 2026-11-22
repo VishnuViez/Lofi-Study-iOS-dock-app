@@ -84,4 +84,4 @@ struct ControlsBar: View {
         .buttonStyle(.plain)
         .foregroundStyle(tint)
     }
-}
+} 
