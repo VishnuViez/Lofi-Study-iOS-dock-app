@@ -66,4 +66,4 @@ struct LofiBackdrop: View {
             center: CGPoint(x: size.width / 2, y: size.height / 2),
             startRadius: size.height * 0.45, endRadius: size.width * 0.62))
     }
-}
+} 
