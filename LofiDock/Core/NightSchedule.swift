@@ -16,4 +16,4 @@ struct NightSchedule: Equatable {
         }
         return minute >= startMinute || minute < endMinute
     }
-}
+} 
