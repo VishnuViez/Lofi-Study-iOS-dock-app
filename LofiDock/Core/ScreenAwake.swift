@@ -7,4 +7,4 @@ enum ScreenAwake {
     static func shouldStayOn(onlyWhileCharging: Bool, isCharging: Bool) -> Bool {
         !onlyWhileCharging || isCharging
     }
-}
+} 
