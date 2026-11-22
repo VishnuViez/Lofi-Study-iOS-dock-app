@@ -26,4 +26,4 @@ final class ThermalMonitor {
         state = ProcessInfo.processInfo.thermalState
         lowPowerMode = ProcessInfo.processInfo.isLowPowerModeEnabled
     }
-}
+} 
