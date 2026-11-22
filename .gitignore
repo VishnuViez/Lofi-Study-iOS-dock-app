@@ -9,4 +9,4 @@ LofiDock/Info.plist
 # macOS and Xcode user state
 .DS_Store
 xcuserdata/
-*.xcuserstate
+*.xcuserstate 
