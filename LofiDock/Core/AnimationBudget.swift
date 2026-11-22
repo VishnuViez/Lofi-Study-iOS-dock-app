@@ -16,4 +16,4 @@ enum AnimationBudget {
         default: return lowPowerMode ? 15 : full
         }
     }
-}
+} 
