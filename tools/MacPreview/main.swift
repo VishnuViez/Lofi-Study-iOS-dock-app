@@ -197,4 +197,4 @@ struct AppIconArt: View {
             gc.stroke(Path(glass), with: .color(.black.opacity(0.35)), lineWidth: 3)
         }
     }
-}
+} 
