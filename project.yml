@@ -56,4 +56,4 @@ schemes:
         LofiDockTests: [test]
     test:
       targets:
-        - LofiDockTests
+        - LofiDockTests 
