@@ -58,4 +58,4 @@ enum TimeFormatting {
         style.timeZone = timeZone
         return date.formatted(style)
     }
-}
+} 
