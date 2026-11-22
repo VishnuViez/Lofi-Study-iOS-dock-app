@@ -40,4 +40,4 @@ struct SessionClockTests {
         clock.appDidBecomeActive(now: back.addingTimeInterval(90))
         #expect(clock.startedAt == back)
     }
-}
+} 
