@@ -237,4 +237,4 @@ struct TimerChip: View {
         .buttonStyle(.plain)
         .accessibilityLabel(timer.isFinished ? "Timer finished. Stop" : "Timer, \(remaining) left")
     }
-}
+} 
