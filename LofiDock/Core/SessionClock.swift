@@ -30,4 +30,4 @@ final class SessionClock {
         leftApp = false
         startedAt = now
     }
-}
+} 
