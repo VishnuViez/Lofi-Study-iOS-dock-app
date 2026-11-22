@@ -245,4 +245,4 @@ struct OnePole {
 @inline(__always) private func softClip(_ x: Float) -> Float {
     let c = min(max(x, -3), 3)
     return c * (27 + c * c) / (27 + 9 * c * c)
-}
+} 
