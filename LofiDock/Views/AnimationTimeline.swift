@@ -55,4 +55,4 @@ struct AnimationTimeline<Content: View>: View {
             }
         }
     }
-}
+} 
