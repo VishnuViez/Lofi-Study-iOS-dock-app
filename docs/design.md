@@ -71,4 +71,4 @@ Pure logic (session clock, formatting, burn-in drift, night schedule, frame
 budget, analog hand angles, face cycling, synth) has Swift Testing tests that
 run from Xcode and, without Xcode, via `tools/check-mac.sh`. The same script
 renders every face plus night and controls variants, the app icon and audio
-samples on macOS for inspection.
+samples on macOS for inspection. 
