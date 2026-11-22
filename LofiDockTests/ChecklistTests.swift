@@ -65,4 +65,4 @@ struct ChecklistTests {
         #expect(reopened.checklist == store.checklist)
         #expect(reopened.checklist.doneCount == 1)
     }
-}
+} 
