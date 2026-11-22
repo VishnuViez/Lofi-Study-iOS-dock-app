@@ -16,4 +16,4 @@ struct AnalogHands: Equatable {
         minute = minutes * 6
         hour = hours * 30
     }
-}
+} 
