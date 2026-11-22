@@ -45,4 +45,4 @@ struct ClockOverlay: View {
         .shadow(color: Palette.lamp.opacity(0.28), radius: 16 * scale)
         .accessibilityElement(children: .combine)
     }
-}
+} 
