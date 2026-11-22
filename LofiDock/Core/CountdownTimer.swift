@@ -77,4 +77,4 @@ struct CountdownTimer: Equatable {
         guard length > 0 else { return 0 }
         return min(1, max(0, remaining(at: now) / length))
     }
-}
+} 
