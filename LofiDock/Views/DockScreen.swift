@@ -184,4 +184,4 @@ struct DockScreen: View {
             withAnimation(.easeIn(duration: 0.4)) { controlsVisible = false }
         }
     }
-}
+} 
