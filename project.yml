@@ -1,0 +1,59 @@
+name: LofiDock
+options:
+  bundleIdPrefix: com.vishnu
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    DEVELOPMENT_TEAM: C7MX346UFN
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  LofiDock:
+    type: application
+    platform: iOS
+    sources:
+      - path: LofiDock
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.vishnu.lofidock
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    info:
+      path: LofiDock/Info.plist
+      properties:
+        CFBundleDisplayName: Lofi Dock
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UIRequiresFullScreen: true
+        UIStatusBarHidden: true
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        ITSAppUsesNonExemptEncryption: false
+  LofiDockTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: LofiDockTests
+    dependencies:
+      - target: LofiDock
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.vishnu.lofidock.tests
+schemes:
+  LofiDock:
+    build:
+      targets:
+        LofiDock: all
+        LofiDockTests: [test]
+    test:
+      targets:
+        - LofiDockTests
