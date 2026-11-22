@@ -581,4 +581,4 @@ private func rotated(_ p: CGPoint, by angle: Angle) -> CGPoint {
 
 private func + (a: CGPoint, b: CGPoint) -> CGPoint {
     CGPoint(x: a.x + b.x, y: a.y + b.y)
-}
+} 
