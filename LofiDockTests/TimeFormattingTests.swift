@@ -38,4 +38,4 @@ struct TimeFormattingTests {
         let line = TimeFormatting.dateLine(date(9, 0), locale: Locale(identifier: "en_US"), timeZone: utc)
         #expect(line == "Saturday, November 21")
     }
-}
+} 
