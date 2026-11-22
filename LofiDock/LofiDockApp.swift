@@ -64,4 +64,4 @@ struct RootView: View {
                 screen.onlyWhileCharging = awakeOnlyWhileCharging
             }
     }
-}
+} 
