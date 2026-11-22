@@ -29,4 +29,4 @@ enum ClockFace: String, CaseIterable, Identifiable {
         let count = all.count
         return all[((index + step) % count + count) % count]
     }
-}
+} 
